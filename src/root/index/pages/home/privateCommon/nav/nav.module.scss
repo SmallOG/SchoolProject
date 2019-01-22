@@ -1,4 +1,4 @@
-@import "../../../../../statics/base";
+@import "../../../../../../statics/base";
 .NavRang{
   padding:0 $pading;
   background-color: #fff;
@@ -8,12 +8,13 @@
     text-align: center;
     float: left;
     margin-top: $mt;
+    font-size: 16px;
     span{
       font-size: 50px;
       display: block;
     }
     span:nth-child(2){
-      font-size: 14px;
+      font-size: 20px;
       margin-top: 10px;
     }
   }

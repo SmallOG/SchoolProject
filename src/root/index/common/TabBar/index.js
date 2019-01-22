@@ -35,15 +35,15 @@ class Tabbar extends Component {
                         title="首页"
                         key="首页"
                         icon={<div style={{
-                            width: '22px',
-                            height: '22px',
-                            background: 'url(https://zos.alipayobjects.com/rmsportal/sifuoDUQdAFKAVcFGROC.svg) center center /  21px 21px no-repeat' }}
+                            width: '44px',
+                            height: '44px',
+                            background: 'url(https://zos.alipayobjects.com/rmsportal/sifuoDUQdAFKAVcFGROC.svg) center center /  42px 42px no-repeat' }}
                         />
                         }
                         selectedIcon={<div style={{
-                            width: '22px',
-                            height: '22px',
-                            background: 'url(https://zos.alipayobjects.com/rmsportal/iSrlOTqrKddqbOmlvUfq.svg) center center /  21px 21px no-repeat' }}
+                            width: '44px',
+                            height: '44px',
+                            background: 'url(https://zos.alipayobjects.com/rmsportal/iSrlOTqrKddqbOmlvUfq.svg) center center /  42px 42px no-repeat' }}
                         />
                         }
                         selected={this.state.selectedTab === 'blueTab'}
@@ -60,16 +60,16 @@ class Tabbar extends Component {
                     <TabBar.Item
                         icon={
                             <div style={{
-                                width: '22px',
-                                height: '22px',
-                                background: 'url(https://gw.alipayobjects.com/zos/rmsportal/BTSsmHkPsQSPTktcXyTV.svg) center center /  21px 21px no-repeat' }}
+                                width: '44px',
+                                height: '44px',
+                                background: 'url(https://gw.alipayobjects.com/zos/rmsportal/BTSsmHkPsQSPTktcXyTV.svg) center center /  42px 42px no-repeat' }}
                             />
                         }
                         selectedIcon={
                             <div style={{
-                                width: '22px',
-                                height: '22px',
-                                background: 'url(https://gw.alipayobjects.com/zos/rmsportal/ekLecvKBnRazVLXbWOnE.svg) center center /  21px 21px no-repeat' }}
+                                width: '44px',
+                                height: '44px',
+                                background: 'url(https://gw.alipayobjects.com/zos/rmsportal/ekLecvKBnRazVLXbWOnE.svg) center center /  42px 42px no-repeat' }}
                             />
                         }
                         title="Koubei"
@@ -88,16 +88,16 @@ class Tabbar extends Component {
                     <TabBar.Item
                         icon={
                             <div style={{
-                                width: '22px',
-                                height: '22px',
-                                background: 'url(https://zos.alipayobjects.com/rmsportal/psUFoAMjkCcjqtUCNPxB.svg) center center /  21px 21px no-repeat' }}
+                                width: '44px',
+                                height: '44px',
+                                background: 'url(https://zos.alipayobjects.com/rmsportal/psUFoAMjkCcjqtUCNPxB.svg) center center /  42px 42px no-repeat' }}
                             />
                         }
                         selectedIcon={
                             <div style={{
-                                width: '22px',
-                                height: '22px',
-                                background: 'url(https://zos.alipayobjects.com/rmsportal/IIRLrXXrFAhXVdhMWgUI.svg) center center /  21px 21px no-repeat' }}
+                                width: '44px',
+                                height: '44px',
+                                background: 'url(https://zos.alipayobjects.com/rmsportal/IIRLrXXrFAhXVdhMWgUI.svg) center center /  42px 42px no-repeat' }}
                             />
                         }
                         title="Friend"

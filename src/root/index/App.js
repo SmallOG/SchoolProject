@@ -5,6 +5,7 @@ import Router from './router'
 import styles from './App.scss';
 import TabBar from  './common/TabBar';
 import '../../statics/iconfont/iconfont.css';
+import '../../statics/base.scss';
 console.log(styles)
 class App extends Component {
     render() {

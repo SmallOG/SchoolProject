@@ -37,7 +37,7 @@ class Carousels extends Component {
                                 <img
                                     src={`http://cimg2.163.com/cnews/2007/1/11/200701111511503f664.jpg`}
                                     alt=""
-                                    style={{width: '100%', verticalAlign: 'top',height:'150px'}}
+                                    style={{width: '100%', verticalAlign: 'top'}}
                                     onLoad={() => {
                                         // fire window resize event to change height
                                         window.dispatchEvent(new Event('resize'));
