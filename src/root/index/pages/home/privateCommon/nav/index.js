@@ -12,15 +12,15 @@ class Nav extends Component{
                     </li>
                     <li className="clearfix">
                         <span className='iconfont'>&#xe614;</span>
-                        <span>快递</span>
+                        <span>外卖</span>
                     </li>
                     <li className="clearfix">
                         <span className='iconfont'>&#xe606;</span>
                         <span>商家</span>
                     </li>
                     <li className="clearfix">
-                        <span className='iconfont'>&#xe61e;</span>
-                        <span>零食</span>
+                        <span className='iconfont'>&#xe65f;</span>
+                        <span>快递</span>
                     </li>
                     <li className="clearfix">
                         <span className='iconfont'>&#xe632;</span>
