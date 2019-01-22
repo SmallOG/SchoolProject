@@ -3,7 +3,8 @@ import { connect } from 'react-redux';
 import style from './Home.module.scss';
 import Search from '../../../../component/search';
 import Nav from './privateCommon/nav';
-import Carousels from './privateCommon/carousel'
+import Carousels from './privateCommon/carousel';
+import Coupon from '../../../../component/coupon'
 class Home extends Component{
 
     render(){
@@ -12,6 +13,7 @@ class Home extends Component{
                 <Search/>
                 <Nav/>
                 <Carousels/>
+                <Coupon/>
             </div>
         )
     }

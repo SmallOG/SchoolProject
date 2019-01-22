@@ -1,0 +1,60 @@
+@import "../../statics/base";
+.CouponRG{
+  margin-top: $mt;
+  padding: 0 $pading $pading $pading;
+  background-color: #fff;
+  .title{
+    height: 80px;
+    width: 100%;
+    line-height: 80px;
+    color: $color;
+    font-size: 30px;
+    font-weight: 700;
+  }
+  .couponCt{
+    height: 150px;
+    width: 100%;
+    background-color: #fff;
+    border: 2px solid #f4f4f4;
+    display: flex;
+    box-shadow: 1px 1px 1px 1px #f4f4f4;
+    border-radius: $br;
+    div,div:nth-child(2){
+      flex: 1;
+      border-right: 2px solid #f4f4f4;
+      position: relative;
+      span{
+        font-size: 120px;
+        color: red;
+        overflow: hidden;
+        position: absolute;
+        top: 50%;
+        left: 0;
+        transform: translateY(-50%);
+      }
+      .right .student{
+        font-size: 100px !important;
+      }
+      span:nth-child(2),span:nth-child(3){
+        font-size: 24px;
+        vertical-align: top;
+        color: $color;
+        position: absolute;
+        left: 120px;
+        top: 50px;
+      }
+      span:nth-child(3){
+        position: absolute;
+        top: 90px;
+        left: 120px;
+      }
+    }
+    div:nth-child(2){
+      span{
+        font-size: 87px;
+        margin-left: 10px;
+        color: $color;
+      }
+    }
+  }
+}
