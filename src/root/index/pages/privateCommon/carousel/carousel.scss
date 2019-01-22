@@ -1,0 +1,20 @@
+@import "../../../../../statics/base";
+.CrRang{
+  margin-top: $mt;
+  height: 150px;
+  width: 100%;
+  background-color: #fff;
+  .am-wingblank.am-wingblank-lg {
+    margin-left: 0rem !important;
+    margin-right: 0rem !important;
+  }
+  .am-wingblank {
+    margin-left: 0rem !important;
+    margin-right: 0rem !important;
+  }
+  .slider-list{
+    height: 150px !important;
+    width: 100% !important;
+  }
+}
+
