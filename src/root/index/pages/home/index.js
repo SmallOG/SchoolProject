@@ -1,16 +1,15 @@
 import React,{Component} from 'react';
 import { connect } from 'react-redux';
 import style from './Home.module.scss';
-import Search from '../../../../component/search'
+import Search from '../../../../component/search';
+import Nav from '../privateCommon/nav';
 class Home extends Component{
 
     render(){
         return(
-            <div>
+            <div className={style.HomeDiv}>
                 <Search/>
-                <div className={style.HomeRang}>
-                    <div className={style.HomeIndex}>我是主页</div>
-                </div>
+                <Nav/>
             </div>
         )
     }

@@ -3,8 +3,8 @@ import {Provider} from 'react-redux';
 import store from './store';
 import Router from './router'
 import styles from './App.scss';
-import Foot from '../../component/foot';
-import TabBar from  './common/TabBar'
+import TabBar from  './common/TabBar';
+import '../../statics/iconfont/iconfont.css';
 console.log(styles)
 class App extends Component {
     render() {

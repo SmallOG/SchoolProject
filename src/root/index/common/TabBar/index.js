@@ -14,7 +14,7 @@ class Tabbar extends Component {
 
     renderContent(pageText) {
         return (
-            <div style={{ backgroundColor: 'white', height: '100%', textAlign: 'center' }}>
+            <div style={{ backgroundColor: 'white', height: '100%',backgroundColor:'#f4f4f4'}}>
                 <div>
                     {pageText}
                 </div>
