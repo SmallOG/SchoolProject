@@ -1,0 +1,60 @@
+@import "../../../../../../statics/base";
+.InfonRg{
+  padding: $pading;
+  background-color: #fff;
+  width: 100%;
+  position: relative;
+  display: flex;
+  img{
+    height: 150px;
+    width: 150px;
+    vertical-align: top;
+    overflow: hidden;
+  }
+  .right{
+    display: inline-block;
+    flex: 1;
+    width: 100%;
+    margin-left: $ml;
+    span{
+      display: block;
+      margin-top: 15px;
+      i{
+        margin-left: $ml;
+      }
+      .sex{
+        margin-left: 55px;
+      }
+      .room{
+        margin-left: 30px;
+      }
+    }
+    span:nth-child(1){
+      font-size: 30px;
+      font-weight: 700;
+      margin-top: 0;
+    }
+  }
+  .iconR{
+    position: absolute;
+    right: 24px;
+    bottom: 30px;
+    width: 30px;
+    height: 30px;
+    span{
+      font-size: 30px;
+    }
+  }
+  .iconE{
+    position: absolute;
+    right: 64px;
+    bottom: 30px;
+    width: 30px;
+    height: 30px;
+    span{
+      font-size: 30px;
+    }
+  }
+
+
+}

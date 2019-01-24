@@ -1,0 +1,30 @@
+@import "../../../../../../statics/base";
+.ListRg{
+  margin-top: $mt;
+  width: 100%;
+  ul li{
+    padding: $pading;
+    border-bottom: 2px solid #f4f4f4;
+    background-color: #fff;
+    position: relative;
+    span:nth-child(1){
+      font-size: 50px;
+    }
+    span:nth-child(2){
+      margin-left: $ml;
+      font-size: 28px;
+    }
+    .icon{
+      position: absolute;
+      right: 24px;
+      top: 50%;
+      transform: translateY(-50%);
+      span{
+        font-size: 30px;
+      }
+    }
+  }
+  li:nth-child(2),li:last-child{
+    margin-top: $mt;
+  }
+}

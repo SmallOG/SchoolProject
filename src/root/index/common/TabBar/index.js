@@ -2,11 +2,14 @@ import React, {Component} from 'react';
 import {connect} from 'react-redux';
 import {TabBar} from 'antd-mobile';
 import Home from '../../pages/home';
+import Friend from '../../pages/friend';
+import My from  '../../pages/my';
+
 class Tabbar extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            selectedTab: 'blueTab',
+            selectedTab: 'yellowTab',
             hidden: false,
             fullScreen: false,
         };
@@ -14,7 +17,7 @@ class Tabbar extends Component {
 
     renderContent(pageText) {
         return (
-            <div style={{ backgroundColor: 'white', height: '100%',backgroundColor:'#f4f4f4'}}>
+            <div style={{  height: '100%',backgroundColor:'#f4f4f4'}}>
                 <div>
                     {pageText}
                 </div>
@@ -110,7 +113,7 @@ class Tabbar extends Component {
                             });
                         }}
                     >
-                        {this.renderContent('Friend')}
+                        {this.renderContent(<Friend/>)}
                     </TabBar.Item>
                     <TabBar.Item
                         icon={{ uri: 'https://zos.alipayobjects.com/rmsportal/asJMfBrNqpMMlVpeInPQ.svg' }}
@@ -124,7 +127,7 @@ class Tabbar extends Component {
                             });
                         }}
                     >
-                        {this.renderContent('My')}
+                        {this.renderContent(<My></My>)}
                     </TabBar.Item>
                 </TabBar>
             </div>
