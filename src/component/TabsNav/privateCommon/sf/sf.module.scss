@@ -1,0 +1,23 @@
+@import "../../../../statics/base";
+.sfRg{
+  padding: $pading;
+  padding-top: 0;
+  background-color: #fff;
+  width: 100%;
+  li{
+    width: 25%;
+    text-align: center;
+    float: left;
+    margin-top: $mt;
+    img{
+      height: 100px;
+      width: 100px;
+      border-radius: 50%;
+      overflow: hidden;
+    }
+    div{
+      margin-top: 10px;
+    }
+
+  }
+}

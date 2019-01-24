@@ -6,6 +6,7 @@ import Nav from './privateCommon/nav';
 import Carousels from './privateCommon/carousel';
 import Coupon from '../../../../component/coupon';
 import TabsNav from '../../../../component/TabsNav';
+import END from '../../../../component/end';
 class Home extends Component{
     render(){
         return(
@@ -15,6 +16,7 @@ class Home extends Component{
                 <Carousels/>
                 <Coupon/>
                 <TabsNav/>
+                <END/>
             </div>
         )
     }

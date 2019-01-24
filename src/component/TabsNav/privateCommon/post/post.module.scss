@@ -1,0 +1,58 @@
+@import "../../../../statics/base";
+.postRG{
+  padding: $pading;
+  padding-top: 0;
+  width: 100%;
+  .cardRG{
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+    border-bottom: 2px solid #f4f4f4;
+    padding-bottom: $pb;
+    margin-top: $mt;
+    .left{
+      width: 120px;
+      height: 120px;
+      position: relative;
+      img{
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        top: 50%;
+        left: 0;
+        transform: translateY(-50%);
+      }
+    }
+    .right{
+      flex: 1;
+      width: 70%;
+      position: relative;
+      .title{
+        font-size: 30px;
+        width: 90%;
+        margin-left: $ml;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow:ellipsis;
+        font-weight: 700;
+      }
+      .info,.time{
+        margin-left: $ml;
+        margin-top: 20px;
+        span:nth-child(2){
+          margin-left: $ml;
+        }
+      }
+      .icf{
+        position: absolute;
+        right: 24px;
+        bottom: 0px;
+        color: yellow;
+        span{
+          font-size: 50px;
+        }
+      }
+
+    }
+  }
+}

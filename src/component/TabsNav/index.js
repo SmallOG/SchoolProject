@@ -13,8 +13,8 @@ import Supermarket from './privateCommon/Supermarket';
 import Attention from  './privateCommon/attention';
 class TabsNav extends Component{
     renderContent = tab =>
-        (<div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', height: '150px', backgroundColor: '#fff' }}>
-            <p>Content of {tab.common}</p>
+        (<div style={{ display: 'flex',  backgroundColor: '#fff' }}>
+            {tab.common}
         </div>);
 
     render() {
