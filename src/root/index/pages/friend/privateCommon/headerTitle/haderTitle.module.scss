@@ -1,0 +1,26 @@
+@import "../../../../../../statics/base";
+.headerRg{
+  padding:$pading;
+  background-color: #fff;
+  border-bottom: 2px solid #f4f4f4;
+  position: absolute;
+  left: 0;
+  top:0;
+  width: 100%;
+  span:nth-child(1){
+    font-size: 50px;
+    color: red;
+    margin-right: $mr;
+  }
+  span:nth-child(2){
+    font-size: 30px;
+    font-weight: 700;
+  }
+  span:nth-child(3){
+    position: absolute;
+    right: 24px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 50px;
+  }
+}

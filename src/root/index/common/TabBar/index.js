@@ -1,21 +1,20 @@
 import React, {Component} from 'react';
 import {connect} from 'react-redux';
+import { Link,Redirect} from 'react-router-dom';
 import {TabBar} from 'antd-mobile';
-import Home from '../../pages/home';
-import Friend from '../../pages/friend';
-import My from  '../../pages/my';
 
 class Tabbar extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            selectedTab: 'yellowTab',
+            selectedTab: 'blueTab',
             hidden: false,
             fullScreen: false,
         };
     }
 
     renderContent(pageText) {
+
         return (
             <div style={{  height: '100%',backgroundColor:'#f4f4f4'}}>
                 <div>
@@ -58,7 +57,7 @@ class Tabbar extends Component {
                         }}
                         data-seed="logId"
                     >
-                        {this.renderContent(<Home/>)}
+                        {this.renderContent('home')}
                     </TabBar.Item>
                     <TabBar.Item
                         icon={
@@ -113,7 +112,7 @@ class Tabbar extends Component {
                             });
                         }}
                     >
-                        {this.renderContent(<Friend/>)}
+                        {this.renderContent('friend')}
                     </TabBar.Item>
                     <TabBar.Item
                         icon={{ uri: 'https://zos.alipayobjects.com/rmsportal/asJMfBrNqpMMlVpeInPQ.svg' }}
@@ -127,7 +126,7 @@ class Tabbar extends Component {
                             });
                         }}
                     >
-                        {this.renderContent(<My></My>)}
+                        {this.renderContent('my')}
                     </TabBar.Item>
                 </TabBar>
             </div>
