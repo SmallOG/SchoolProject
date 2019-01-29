@@ -1,0 +1,27 @@
+@import "../../../../../../statics/base";
+.NavRang{
+  padding:0 $pading;
+  background-color: #fff;
+  margin-top: $mt;
+  .title{
+    padding: $pading 0;
+    font-size: 28px;
+    font-weight: 700;
+  }
+  ul li{
+    width: 25%;
+    height: 100px;
+    text-align: center;
+    float: left;
+    margin-top: $mt;
+    font-size: 16px;
+    span{
+      font-size: 50px;
+      display: block;
+    }
+    span:nth-child(2){
+      font-size: 20px;
+      margin-top: 10px;
+    }
+  }
+}

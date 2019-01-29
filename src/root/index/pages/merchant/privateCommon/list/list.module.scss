@@ -1,0 +1,66 @@
+@import "../../../../../../statics/base";
+.ListRg{
+  margin-top: $mt;
+  padding: 0 $pading;
+  .title{
+    font-size: 28px;
+    font-weight: 700;
+    padding: $pading 0;
+  }
+  li{
+    padding:20px;
+    width: 100%;
+    background-color: #fff;
+    margin-top: $mt;
+    img{
+      height: 200px;
+      width: 200px;
+      vertical-align: top;
+    }
+    div{
+      display: inline-block;
+      margin-left: 20px;
+      span{
+        display: block;
+        margin-top: 20px;
+      }
+      span:nth-child(1){
+        margin-top: 0;
+        font-size: 32px;
+        font-weight: 700;
+      }
+      span:nth-child(2){
+        color: red;
+        font-size: 28px;
+        font-weight: 700;
+        span{
+          display: inline-block;
+          font-size: 30px;
+          color: red;
+        }
+        span{
+          border: none;
+          padding: 0;
+          margin: 0;
+        }
+      }
+      span:nth-child(3){
+        border: 2px solid #ddd;
+        padding: 10px;
+        color: #999;
+        border-radius: 4px;
+        font-size: 24px;
+      }
+      span:nth-child(4){
+        color: red;
+        border-radius: 4px;
+        font-size: 24px;
+        i{
+          margin:0 10px;
+        }
+      }
+    }
+
+  }
+
+}

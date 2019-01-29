@@ -1,20 +1,23 @@
 import React, {Component} from 'react';
 import {connect} from 'react-redux';
-import { Link,Redirect} from 'react-router-dom';
+import { Link,Redirect,BrowserRouter,Route,withRouter} from 'react-router-dom';
 import {TabBar} from 'antd-mobile';
-
+import Home from '../../pages/home';
+import Friend from  '../../pages/friend';
+import My from  '../../pages/my';
+import Merchant from '../../pages/merchant'
+import Makeups from "../../../../component/TabsNav/privateCommon/makeups";
 class Tabbar extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            selectedTab: 'blueTab',
+            selectedTab: 'redTab',
             hidden: false,
             fullScreen: false,
         };
     }
 
     renderContent(pageText) {
-
         return (
             <div style={{  height: '100%',backgroundColor:'#f4f4f4'}}>
                 <div>
@@ -22,15 +25,18 @@ class Tabbar extends Component {
                 </div>
             </div>
         );
+
     }
 
     render() {
+
         return (
             <div style={this.state.fullScreen ? { position: 'fixed', height: '100%', width: '100%', top: 0 } : { height: '100%' }}>
                 <TabBar
                     unselectedTintColor="#949494"
                     tintColor="#4b4c5b"
                     barTintColor="white"
+                    prerenderingSiblingsNumber={0}
                     hidden={this.state.hidden}
                 >
                     <TabBar.Item
@@ -57,7 +63,7 @@ class Tabbar extends Component {
                         }}
                         data-seed="logId"
                     >
-                        {this.renderContent('home')}
+                        {this.renderContent(<Home/>)}
                     </TabBar.Item>
                     <TabBar.Item
                         icon={
@@ -85,7 +91,7 @@ class Tabbar extends Component {
                         }}
                         data-seed="logId1"
                     >
-                        {this.renderContent('Koubei')}
+                        {this.renderContent(<Merchant/>)}
                     </TabBar.Item>
                     <TabBar.Item
                         icon={
@@ -112,7 +118,7 @@ class Tabbar extends Component {
                             });
                         }}
                     >
-                        {this.renderContent('friend')}
+                        {this.renderContent(<Friend/>)}
                     </TabBar.Item>
                     <TabBar.Item
                         icon={{ uri: 'https://zos.alipayobjects.com/rmsportal/asJMfBrNqpMMlVpeInPQ.svg' }}
@@ -126,7 +132,7 @@ class Tabbar extends Component {
                             });
                         }}
                     >
-                        {this.renderContent('my')}
+                        {this.renderContent(<My/>)}
                     </TabBar.Item>
                 </TabBar>
             </div>

@@ -23,7 +23,7 @@ class Nav extends Component{
                         <span>快递</span>
                     </li>
                     <li className="clearfix">
-                        <span className='iconfont'>&#xe632;</span>
+                        <span className='iconfont'>&#xe6ff;</span>
                         <span>美妆</span>
                     </li>
                     <li className="clearfix">

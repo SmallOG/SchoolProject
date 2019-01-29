@@ -1,9 +1,13 @@
 import React,{Component} from 'react';
 import {connect} from 'react-redux';
+import CarList from '../../../carList';
+import style from './car.module.scss';
 class Food extends Component{
     render(){
         return(
-            <div>包车</div>
+            <div className={style.List}>
+                <CarList/>
+            </div>
         )
     }
 }

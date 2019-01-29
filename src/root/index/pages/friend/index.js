@@ -10,6 +10,7 @@ class Friend extends Component{
             <div className={style.FrRg}>
               <HeaderTitle/>
               <Content/>
+
             </div>
         )
     }

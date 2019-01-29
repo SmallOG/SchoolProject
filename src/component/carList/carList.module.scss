@@ -1,0 +1,46 @@
+@import "../../statics/base";
+.ListCt{
+  padding: 0 $pading;
+  .carListC{
+    padding: $pading 0;
+    background-color: #fff;
+    display: flex;
+    width: 100%;
+    border-bottom: 4px  dashed #f4f4f4;
+    div{
+      flex: 1;
+      text-align: center;
+      position: relative;
+      span{
+        display: block;
+        color: #000;
+      }
+
+    }
+    div:nth-child(1),div:nth-child(3){
+      span:nth-child(1){
+        font-size: 28px;
+        color: blue;
+        font-weight: 700;
+      }
+      span:nth-child(2){
+        margin-top: $mt;
+      }
+    }
+    div:last-child{
+      span:nth-child(1){
+        font-size: 28px;
+        font-weight: 700;
+        color: red;
+      }
+      span:nth-child(2){
+        margin-top: 15px;
+      }
+      i{
+        color: green;
+        font-size: 28px;
+        font-weight: 700;
+      }
+    }
+  }
+}

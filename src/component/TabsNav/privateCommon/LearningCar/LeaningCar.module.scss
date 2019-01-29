@@ -1,0 +1,26 @@
+@import "../../../../statics/base";
+.LernCar{
+   width: 100%;
+  ul li{
+    float: left;
+    width: 50%;
+    height: 150px;
+    position: relative;
+    border-right: 4px solid #f3f3f3;
+    border-bottom: 4px solid #f3f3f3;
+    div{
+      height: 100px;
+      width: 100px;
+      border-radius: 50%;
+      background-color: #4b4c5b;
+      color: #fff;
+      position: absolute;
+      left: 50%;
+      top: 15%;
+      transform: translateX(-50%);
+      line-height: 100px;
+      text-align: center;
+    }
+
+  }
+}

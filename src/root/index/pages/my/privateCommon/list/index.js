@@ -63,6 +63,13 @@ class List extends Component{
                             <span className="iconfont">&#xe648;</span>
                         </div>
                     </li>
+                    <li>
+                        <span className="iconfont">&#xe7b0;</span>
+                        <span>我的客服</span>
+                        <div className={style.icon}>
+                            <span className="iconfont">&#xe648;</span>
+                        </div>
+                    </li>
                 </ul>
             </div>
         )

@@ -1,0 +1,45 @@
+@import "../../../../../../statics/base";
+.buyRg{
+  width: 100%;
+  margin-top: $mt;
+  padding: $pading;
+  background-color: #fff;
+  .title{
+    font-size: 28px;
+    font-weight: 700;
+  }
+  ul{
+    display: flex;
+    width: 100%;
+  }
+  ul li{
+    flex: 1;
+    margin-top: $mt;
+    padding: 0 15px;
+
+    img{
+      height: 200px;
+      width: 200px;
+      display: block;
+      border-radius: 10px;
+    }
+    span{
+      display: block;
+      margin-top: 18px;
+    }
+    span:nth-child(1){
+      font-weight: 700;
+    }
+    span:last-child{
+      color: red;
+      del{
+        color: #999;
+      }
+    }
+
+
+  }
+  li:last-child{
+    margin-right: 0;
+  }
+}

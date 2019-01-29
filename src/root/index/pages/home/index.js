@@ -12,11 +12,14 @@ class Home extends Component{
         return(
             <div className={style.HomeDiv}>
                 <Search/>
-                <Nav/>
-                <Carousels/>
-                <Coupon/>
-                <TabsNav/>
-                <END/>
+                <div className={style.CTRg}>
+                    <Nav/>
+                    <Carousels/>
+                    <Coupon/>
+                    <TabsNav/>
+                    <END/>
+                </div>
+
             </div>
         )
     }

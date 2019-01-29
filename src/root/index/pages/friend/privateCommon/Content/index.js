@@ -3,6 +3,10 @@ import {connect} from 'react-redux';
 import style from './content.module.scss';
 
 class Friend extends Component{
+    componentDidMount() {
+
+    }
+
     render() {
         return(
             <div className={style.CtRg}>
